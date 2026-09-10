@@ -1,0 +1,21 @@
+h1 {
+color: brown;
+font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+body {
+    padding: 20px;
+    margin: 10px;
+}
+
+img {
+  display: inline-block;
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
