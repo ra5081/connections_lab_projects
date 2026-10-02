@@ -1,0 +1,99 @@
+body {
+    padding: 20px;
+    background-color: #ffbf92;
+    background-image: url(https://t3.ftcdn.net/jpg/02/14/07/58/360_F_214075801_lbWBuEs7Te85zf7KYfj96SA2ytsqILKt.jpg);
+    background-size: contain;
+    background-blend-mode: multiply;
+}
+
+.project_section_desc {
+
+     width: 100%;
+    margin: 40px;
+    background-color: #fffbe488;
+    border-radius: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project_section {
+    width: 100%;
+    margin: 40px;
+    background-color: #fffbe488;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.project_heading {
+    color: white;
+      font-family: "Jacquarda Bastarda 9 Charted", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.project_desc {
+    width: 50%;
+    display: inline-block;
+}
+
+.project_video {
+    width: 49%;
+    min-width: 320px;
+
+}
+.project_img {
+    width: 200px;
+    height: 200px;
+    }   
+
+a {
+    background-color: aliceblue;
+}
+
+
+@media (max-width: 610px) {
+    .project_img {
+    width: 200px;
+    height: 200px;
+    }   
+
+}
+
+#pict {
+animation-name: move;
+animation-duration: 15s;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes move {
+    0% {
+        transform: scale(0vh);
+    }
+    18% {
+          transform: scale(12vh);
+    }
+    45% {
+          transform: scale(24vh);
+    }
+    75% {
+          transform: scale(52vh);
+
+    }
+}
+
+.project_img {
+  animation-duration: 3s;
+  animation-name: slide-in;
+}
+
+@keyframes slide-in {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
